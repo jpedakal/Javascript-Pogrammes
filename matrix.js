@@ -11,13 +11,13 @@ ex: number is 3
 */
 
 function matix(n) {
-    let arr = [];
-   
-    for (let i = 0; i < n; i++) {
-        let j =  1;
-        arr.push([]);
-        arr[i][j] = i + 1;
-    }
-    return arr;
+  let arr = [];
+
+  for (let i = 0; i < n; i++) {
+    let j = 1;
+    arr.push([]);
+    arr[i][j] = i + 1;
+  }
+  return arr;
 }
 console.log(matix(3));
