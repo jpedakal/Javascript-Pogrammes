@@ -19,5 +19,6 @@ function matix(n) {
     arr[i][j] = i + 1;
   }
   return arr;
+  
 }
 console.log(matix(3));
